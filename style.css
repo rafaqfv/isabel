@@ -1,13 +1,18 @@
 body {
-    background-color: black;
+    background-color: #1C2331;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding-top: 3em;
 }
 
 header img {
     width: 150px;
     border-radius: 50%;
     border: 5px solid #77DD77;
+    box-shadow: #77DD77 0px 0px 40px 0px;
 }
 
 .center {
@@ -17,11 +22,6 @@ header img {
 .container {
     padding: 0px 50px;
 }
-
-figcaption {
-    margin-bottom: 3em auto;
-}
-
 img {
     width: 150px;
 }
@@ -30,14 +30,9 @@ figure {
     text-align: center;
     margin-bottom: 5em auto;
 }
-
-figcaption {
-    margin: 1em auto;
-}
-
 footer img {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
 }
 
 footer {
@@ -50,4 +45,24 @@ footer a {
     text-align: center;
     color: white;
     text-decoration: none;
+}
+
+h1 {
+    color: #77DD77;
+}
+
+#borda {
+    border-radius: 50%;
+}
+
+#msc {
+    border-radius: 10%;
+}
+
+#mato img {
+    border-radius: 20px;
+}
+
+figure {
+    padding: 1em;
 }
